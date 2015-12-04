@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Basic App</title>
+    <style>
+      .target {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: 2s;
+      }
+
+      .target p {
+        font-family: arial;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        padding-top:35px;
+      }
+
+      .target:hover {
+        -ms-transform: rotateY(180deg); /* IE 9 */
+        -webkit-transform: rotateY(180deg); /* Safari */
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+      }
+    </style>
+  </head> 
+  <body>
+    <div class="target">
+      <p>Spinner</p>
+    </div>
+  </body>
+</html>
